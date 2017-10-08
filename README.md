@@ -22,7 +22,8 @@ create database called `akane3` and running this command on your terminal/cmd ba
 #### Linux
 
 ```sh
-$ composer create-project inuvalogic/akanewrapper
+$ composer create-project --prefer-dist inuvalogic/akanewrapper yourproject
+$ cd yourproject
 $ vendor/bin/phinx migrate
 $ vendor/bin/phinx seed:run
 ```
@@ -30,9 +31,10 @@ $ vendor/bin/phinx seed:run
 #### Windows
 
 ```sh
-$ composer create-project inuvalogic/akanewrapper
-$ vendor\bin\phinx.bat migrate
-$ vendor\bin\phinx.bat seed:run
+C:\xampp\htdocs> composer create-project --prefer-dist inuvalogic/akanewrapper yourproject
+C:\xampp\htdocs> cd yourproject
+C:\xampp\htdocs> vendor\bin\phinx.bat migrate
+C:\xampp\htdocs> vendor\bin\phinx.bat seed:run
 ```
 
 ### Documentation
