@@ -1,17 +1,19 @@
 ## Project Wrapper for Akane Framework v3
 
-*Wrapper for Akane Framework 3 based website project*
+*Wrapper for Akane Framework v3 based website project*
 
-[Akane Framework 3](http://akane.webhade.com)
+[Akane Framework v3](http://akane.webhade.com)
 
 Version: 0.0.1
+
 Last Update: 2017-10-08
+
 Author: [WebHade Creative](http://www.webhade.id)
 ___
 
 ### Minimum Requirement
 
-1. PHP 5.3.9 and p
+1. PHP 5.3.9 and up
 2. MySQL / MariaDB
 3. Composer
 
@@ -40,6 +42,7 @@ C:\xampp\htdocs> vendor\bin\phinx.bat seed:run
 ### Documentation
 
 For futher detailed documentation can be found here
+
 [akane.webhade.com](http://akane.webhade.com)
 
 ___
@@ -47,7 +50,9 @@ ___
 ## Contribute
 
 Feel free to contribute to this project
+
 visit our site here
+
 [akane.webhade.com](http://akane.webhade.com)
 
 ### Change Log
