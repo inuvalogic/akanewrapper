@@ -2,6 +2,8 @@
 
 *Wrapper for Akane Framework 3 based website project*
 
+[Akane Framework 3](http://akane.webhade.com)
+
 Version: 0.0.1
 Last Update: 2017-10-08
 Author: [WebHade Creative](http://www.webhade.id)
