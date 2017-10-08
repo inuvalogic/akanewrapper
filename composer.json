@@ -20,7 +20,8 @@
         "ext-json" : "*",
         "ext-filter" : "*",
         "ext-session" : "*",
-        "inuvalogic/akane3": "^3.0"
+        "inuvalogic/akane3": "^3.0",
+        "robmorgan/phinx": "^0.6.4"
     },
     "autoload" : {
         "classmap" : ["app/"],
