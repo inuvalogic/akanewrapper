@@ -22,7 +22,7 @@
         "ext-filter" : "*",
         "ext-session" : "*",
         "inuvalogic/akane3": "dev-develop",
-        "robmorgan/phinx": "^0.6.4"
+        "robmorgan/phinx": "*"
     },
     "autoload" : {
         "classmap" : ["app/"],
