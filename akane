@@ -1,0 +1,42 @@
+#!/usr/bin/env php
+<?php
+
+include "vendor/autoload.php";
+
+use Akane\Core\Cli;
+
+$cli = new Cli;
+
+if ( isset($_SERVER['argv'][1]) ) {
+	if ( !empty($_SERVER['argv'][1]) ){
+		
+		$param = $_SERVER['argv'][1];
+
+		switch ($param) {
+            case 'serve':
+                $port = (isset($_SERVER['argv'][3]) ? $_SERVER['argv'][3] : '8000');
+                $cli->serve($port);
+                break;
+
+			case 'mig':
+				array_shift($_SERVER['argv']);
+                $cli->migrationTools();
+                break;
+
+			case '--version':
+			case '-V':
+				$cli->showVersion();
+                break;
+                
+			case '--help':
+			case '-h':
+			default:
+				$cli->showHelp();
+				break;
+		}
+	} else {
+		$cli->showHelp();
+	}
+} else {
+	$cli->showHelp();
+}
