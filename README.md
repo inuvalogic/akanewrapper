@@ -6,9 +6,9 @@
 
 Version: 0.0.1
 
-Last Update: 2017-10-08
+Last Update: 2019-09-13
 
-Author: [WebHade Creative](http://www.webhade.id)
+Author: [WebHade Creative](http://www.webhadecreative.com)
 ___
 
 ### Minimum Requirement
@@ -26,8 +26,8 @@ create database called `akane3` and running this command on your terminal/cmd ba
 ```sh
 $ composer create-project --prefer-dist inuvalogic/akanewrapper yourproject
 $ cd yourproject
-$ vendor/bin/phinx migrate
-$ vendor/bin/phinx seed:run
+$ php akane mig migrate
+$ php akane mig seed:run
 ```
 
 #### Windows
@@ -35,8 +35,8 @@ $ vendor/bin/phinx seed:run
 ```sh
 C:\xampp\htdocs> composer create-project --prefer-dist inuvalogic/akanewrapper yourproject
 C:\xampp\htdocs> cd yourproject
-C:\xampp\htdocs> vendor\bin\phinx.bat migrate
-C:\xampp\htdocs> vendor\bin\phinx.bat seed:run
+C:\xampp\htdocs\yourproject> php akane mig migrate
+C:\xampp\htdocs\yourproject> php akane mig seed:run
 ```
 
 ### Documentation
