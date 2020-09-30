@@ -5,6 +5,7 @@
     "homepage": "http://akane.webhade.com/dev",
     "type": "project",
     "license": "MIT",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Webhade Creative",
@@ -20,7 +21,7 @@
         "ext-json" : "*",
         "ext-filter" : "*",
         "ext-session" : "*",
-        "inuvalogic/akane3": "dev-features/mailgun",
+        "inuvalogic/akane3": "dev-develop",
         "robmorgan/phinx": "*"
     },
     "autoload" : {
