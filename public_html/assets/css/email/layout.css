@@ -1,0 +1,44 @@
+body {
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+.mail-container
+{
+    background-color: #ffffff;
+    border: #ddd solid 1px;
+    width: 85%;
+    margin: 15px auto;
+    border-radius: 20px;
+}
+.mail-content {
+    font-size: 16px;
+    padding: 0 20px;
+}
+.logo {
+    padding: 20px 20px 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+}
+.logo img {
+    width: 200px;
+}
+hr.line {
+    border: none;
+    border-bottom: #ddd solid 2px;
+}
+.footer {
+    padding: 20px;
+    word-break: break-word;
+}
+.copyright {
+    font-size: 15px;
+}
+.mail-heading {
+    margin: 0 0 20px 0;
+}

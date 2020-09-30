@@ -5,12 +5,11 @@
     "homepage": "http://akane.webhade.com/dev",
     "type": "project",
     "license": "MIT",
-    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Webhade Creative",
-            "email": "info@webhade.id",
-            "homepage": "http://webhade.id",
+            "email": "webhadecreative@gmail.com",
+            "homepage": "https://webhadecreative.com",
             "role": "Developer"
         }
     ],
@@ -21,7 +20,7 @@
         "ext-json" : "*",
         "ext-filter" : "*",
         "ext-session" : "*",
-        "inuvalogic/akane3": "dev-develop",
+        "inuvalogic/akane3": "dev-features/mailgun",
         "robmorgan/phinx": "*"
     },
     "autoload" : {

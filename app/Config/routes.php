@@ -1,5 +1,5 @@
 <?php
 
 $routes = [
-	'page/(.*)' => 'Pages:detail'
+	'email/test' => 'email:test'
 ];

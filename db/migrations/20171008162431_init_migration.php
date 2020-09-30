@@ -1,8 +1,9 @@
 <?php
+declare(strict_types=1);
 
 use Phinx\Migration\AbstractMigration;
 
-class InitMigration extends AbstractMigration
+final class InitMigration extends AbstractMigration
 {
     public function up()
     {
@@ -12,8 +13,8 @@ class InitMigration extends AbstractMigration
             ->save();
     }
 
-    public function down()
+    public function down(): void
     {
-        $this->dropTable('artikel');
+        $this->table('artikel')->drop()->save();
     }
 }

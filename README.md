@@ -39,6 +39,20 @@ C:\xampp\htdocs\yourproject> php akane mig migrate
 C:\xampp\htdocs\yourproject> php akane mig seed:run
 ```
 
+### Running (development)
+
+#### Linux
+
+```sh
+$ php -S localhost:8080 -t public_html
+```
+
+#### Windows
+
+```sh
+C:\xampp\htdocs> php -S localhost:8080 -t public_html
+```
+
 ### Documentation
 
 For futher detailed documentation can be found here
